@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetshop</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 pb-0 section-title">Vetshop Vazio</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item mt-3 fw-bold">
+                        <a href="#about" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item mt-md-3 fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item mt-md-3 fw-bold">
+                        <a href="#racoes" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Rações
+                        </a>
+                    </li>
+                    <li class="nav-item mt-md-3 fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="about">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1500">
+                            <img src="Galeria/carrousel/consulta.jpeg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img src="Galeria/carrousel/gatoecachorro.jpg" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1500">
+                            <img src="Galeria/carrousel/consulta3.jpeg" class="d-block w-100">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-4 pb-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <img src="Galeria/sobre/clinica.jpg" class="d-block w-100 rounded"
+                                alt="Foto do espaço interno da clínica">
+                        </div>
+                        <div class="col-md-12 col-lg-6 mt-3 mt-lg-0">
+                            <h2 class="section-title fs-4">Sobre <span class="text-colored">a clínica</span></h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore ut ad animi aliquid
+                                laudantium natus sint illo, vel, distinctio quod necessitatibus optio itaque quaerat
+                                reprehenderit similique! Maiores voluptatibus exercitationem obcaecati.
+                            </p>
+                            <h3 class="section-title fs-4">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsam corrupti
+                                exercitationem earum! Temporibus neque, nesciunt sit amet vel voluptates! Officia quis
+                                iste
+                                ea cumque nam aliquid, nostrum tempora aliquam!
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-4 pb-4 mb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as necessidades</span>
+                    </h2>
+                </div>
+                <div class="row mt-4 justify-content-center">
+                    <div class="col-lg-4 col-md-10">
+                        <img src="Galeria/sobre/banhoetosa.jpg" alt="" class="d-block w-100 rounded mb-2 hfix">
+                        <h3 class="section-title text-colored fs-4 pt-2">
+                            <i class="bi bi-scissors"></i>
+                            Banho e Tosa
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt est aut tempore officia
+                            doloremque maiores sit velit neque dolorem! Asperiores, incidunt. Perferendis ad recusandae
+                            adipisci amet aliquam eum, sed natus.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-10">
+                        <img src="Galeria/sobre/castracao.jpg" alt="" class="d-block w-100 rounded mb-2 hfix">
+                        <h3 class="section-title text-colored fs-4 pt-2">
+                            <i class="bi bi-clipboard2-pulse-fill"></i>
+                            Castrações
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, expedita! Sapiente
+                            tempore libero ea nemo, placeat quas, repellendus beatae possimus, suscipit illo aliquam
+                            reiciendis ipsam corporis quaerat. Consequuntur, quod facilis!</p>
+                    </div>
+                    <div class="col-lg-4 col-md-10">
+                        <img src="Galeria/sobre/vacina.jpg" alt="" class="d-block w-100 rounded mb-2 hfix">
+                        <h3 class="section-title text-colored fs-4 pt-2">
+                            <i class="bi bi-heart-pulse-fill"></i>
+                            Vacinas
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eligendi perspiciatis ea
+                            corrupti? Aliquid facere cumque dolore. Nisi eius maiores voluptatibus debitis numquam!
+                            Labore fugiat voluptatum commodi quae suscipit? Fugiat?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="racoes" class="pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-4">
+                        Nossas <span class="text-colored">rações</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-racoes">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#gatos"
+                                class="fw-bold text-start nav-link active">Gatos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#gatoscastrados"
+                                class="fw-bold text-start nav-link">Gatos castrados</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#caes"
+                                class="fw-bold text-start nav-link">Cães</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#caescastrados"
+                                class="fw-bold text-start nav-link">Cães castrados</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#aves"
+                                class="fw-bold text-start nav-link">Aves</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="gatos">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-5 col-12 text-center">
+                                        <img class="d-block w-100 img-racoes mx-auto"
+                                            src="Galeria/racoes/gatosaborfrango.jpg">
+                                        <h5 class="text-colored fw-bold bb-solid">Ração sabor frango</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-5 col-12 text-center">
+                                        <img class="d-block w-100 img-racoes mx-auto"
+                                            src="Galeria/racoes/gatosfilhoteseadultos.webp">
+                                        <h5 class="text-colored fw-bold bb-solid">Ração para filhotes e adultos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="gatoscastrados">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-5 col-12 text-center">
+                                        <img class="d-block w-100 img-racoes mx-auto"
+                                            src="Galeria/racoes/gatocastrado.png">
+                                        <h5 class="text-colored fw-bold bb-solid">Ração Castrados sabor Carne</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-3 col-md-5 col-12 text-center">
+                                        <img class="d-block w-100 img-racoes mx-auto"
+                                            src="Galeria/racoes/gatocastrado2.webp">
+                                        <h5 class="text-colored fw-bold bb-solid">Ração Castrados Premium</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-5 col-12 text-center">
+                                        <img class="d-block w-100 img-racoes mx-auto"
+                                            src="Galeria/racoes/gatoscastrados.webp">
+                                        <h5 class="text-colored fw-bold bb-solid">Ração Castrados sabor Frango</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="caes">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-5 col-12 text-center">
+                                        <img class="d-block w-100 img-racoes mx-auto"
+                                            src="Galeria/racoes/cachorro.webp">
+                                        <h5 class="text-colored fw-bold bb-solid">Entradas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-5 col-12 text-center">
+                                        <img class="d-block w-100 img-racoes mx-auto"
+                                            src="Galeria/racoes/specialdog.webp">
+                                        <h5 class="text-colored fw-bold bb-solid">Entradas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="caescastrados">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-5 col-12 text-center">
+                                        <img class="d-block w-100 img-racoes mx-auto"
+                                            src="Galeria/racoes/caocastrados.webp">
+                                        <h5 class="text-colored fw-bold bb-solid">Ração Castrados</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aves">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-5 col-12 text-center">
+                                        <img class="d-block w-100 img-racoes mx-auto" src="Galeria/racoes/papagaio.png">
+                                        <h5 class="text-colored fw-bold bb-solid">Ração Aves Papagaio</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-5 col-12 text-center">
+                                        <img class="d-block w-100 img-racoes mx-auto" src="Galeria/racoes/canario.png">
+                                        <h5 class="text-colored fw-bold bb-solid">Ração Aves Cánario</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pb-4 pt-4">
+            <div class="container">
+                <div class="row pb-md-5">
+                    <h2 class="section-title text-center">Entre em <span class="text-colored">contato</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone
+                                    (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-5 text-colored">
+                                <i class="bi bi-chat-square-heart-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-5 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo, nº 192 - Bairro Booststrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

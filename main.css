@@ -1,0 +1,82 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #1a6f85;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: rgb(255, 255, 255);
+    color: #1a6f85;
+}
+
+h1 {
+    padding-left: 1em;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #daf4fa;
+}
+
+.section-title {
+    font-family: "Bungee", sans-serif;
+}
+
+.text-colored {
+    color: #1a6f85;
+}
+
+#about,
+#racoes {
+    background-color: #daf4fa;
+}
+
+.nav-racoes .nav-link.active,
+#contato button {
+    background-color: #1a6f85;
+    color: #fff;
+}
+
+.nav-racoes .nav-link {
+    color: #1a6f85;
+}
+
+.hfix {
+    height: 60%;
+}
+
+.img-racoes {
+    min-width: 14em;
+    max-width: 14em;
+    width: 100%;
+    min-height: 20em;
+    max-height: 20em;
+    height: 100%;
+}
+
+.bb-solid {
+    border-bottom: 0.1em solid #1a6f85;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
